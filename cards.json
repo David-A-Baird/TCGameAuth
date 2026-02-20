@@ -1,0 +1,271 @@
+[
+    {
+        "cardId": 1, 
+        "cardName": "Rabbit",
+        "cardDescription": "A simple rabbit, with no special abilities.",
+        "rarity": "Common",
+        "type": "Creature",
+        "set": "Base Set",
+        "health": 2,
+        "attack": 1,
+        "cost": 1
+    },
+    {
+        "cardId": 2,
+        "cardName": "Erick Knightman",
+        "cardDescription": "This is a common fighter, with no special abilities. He can be equipped with one equipment card.",
+        "rarity": "Common",
+        "type": "Fighter",
+        "set": "Base Set",
+        "health": 3,
+        "attack": 2,
+        "cost": 2
+    },
+    {
+        "cardId": 3,
+        "cardName": "Adriana the Arcane",
+        "cardDescription": "This is a common caster card, with one spell that deals 2 damage to one target at a cost of 1. This caster can hold one equipment card.",
+        "rarity": "Common",
+        "type": "Caster",
+        "set": "Base Set",
+        "health": 2,
+        "attack": 1,
+        "cost": 2
+    },
+    {
+        "cardId": 4,
+        "cardName": "Doctor Daniel",
+        "cardDescription": "This is a common Healer card, with the ability to heal 2 health to one target ally at a cost of 1. They cannont use quipment cards, but they can use one enhancement card.",
+        "rarity": "Common",
+        "type": "Healer",
+        "set": "Base Set",
+        "health": 3,
+        "attack": 0,
+        "cost": 2
+    },
+    {
+        "cardId": 5,
+        "cardName": "Stone Shield",
+        "cardDescription": "This is an uncommon equipment card that can be equipped to a fighter or caster.",
+        "rarity": "Uncommon",
+        "type": "Equipment",
+        "set": "Base Set",
+        "health": "+2",
+        "cost": 2
+    },
+    {
+        "cardId": 6,
+        "cardName": "Healing Rune",
+        "cardDescription": "This is a common enhancement card that can be used by a healer to boost their healing.",
+        "rarity": "Common",
+        "type": "Enhancement",
+        "set": "Base Set",
+        "speellPower": "+1",
+        "cost": 1
+    },
+    {
+        "cardId": 7,
+        "cardName": "Copper Sword",
+        "cardDescription": "This is an uncommon equipment card that can be equipped by a fighter. It gives the fighter +1 attack.",
+        "rarity": "Common",
+        "type": "Equipment",
+        "set": "Base Set",
+        "attack": "+1",
+        "cost": 2
+    },
+    {
+        "cardId": 8,
+        "cardName": "Brown Bear",
+        "cardDescription": "This is a rare creature card. It cannot be given equipment cards, but can have 2 creature enhancement cards.",
+        "rarity": "Rare",
+        "type": "Creature",
+        "set": "Base Set",
+        "health": 7,
+        "attack": 3,
+        "cost": 4
+    },
+    {
+        "cardId": 9,
+        "cardName": "Charlie the Cleric",
+        "cardDescription": "This is an uncommon healer card. They can heal 3 health to one target ally at a cost of 1. They can use one enhancement card and one equipment card.",
+        "rarity": "Uncommon",
+        "type": "Healer",
+        "set": "Base Set",
+        "health": 3,
+        "attack": 1,
+        "cost": 2
+    },
+    {
+        "cardId": 10,
+        "cardName": "Samuel the Sorcerer",
+        "cardDescription": "This is an uncommon caster card. They have one spell that deals 3 damage to one target at a cost of 1. They can use two equipment cards and one enhancement card.",
+        "rarity": "Uncommon",
+        "type": "Caster",
+        "set": "Base Set",
+        "health": 3,
+        "attack": 1,
+        "cost": 3
+    },
+    {
+        "cardId": 11,
+        "cardName": "Michael the Monk",
+        "cardDescription": "This is a common fighter card in the 'Time is Right' set. He has no special abilities, and can use one equipment card.",
+        "rarity": "Common",
+        "type": "Fighter",
+        "set": "Time is Right Set",
+        "health": 3,
+        "attack": 2,
+        "cost": 2
+    },
+    {
+        "cardId": 12,
+        "cardName": "Health Boost Patch",
+        "cardDescription": "This is a common enhancement card that can be placed on a piece of equipment to give the user +2 health.",
+        "rarity": "Common",
+        "type": "Enhancement",
+        "set": "Time is Right Set",
+        "spellPower": "+2",
+        "cost": 2
+    },
+    {
+        "cardId": 13,
+        "cardName": "Necklace of Warding",
+        "cardDescription": "This is a rare equipment card that reduces damage taken by the user by 3.",
+        "rarity": "Rare",
+        "type": "Equipment",
+        "set": "Time is Right Set",
+        "damageReduction": 3,
+        "cost": 4
+    },
+    {
+        "cardId": 14,
+        "cardName": "Paul the Paladin",
+        "cardDescription": "This is an uncommon fighter card. He has the ability to protect an ally from all damage, taking the damage reduced by 1. He can use two equipment cards and one enhancement card.",
+        "rarity": "Uncommon",
+        "type": "Fighter",
+        "set": "Time is Right Set",
+        "health": 4,
+        "attack": 3,
+        "cost": 3
+    },
+    {
+        "cardId": 15,
+        "cardName": "Maria Magus",
+        "cardDescription": "This is a common caster card. They have one spell that deals 2 fire damage to one target at a cost of 1. They can use one equipment card.",
+        "rarity": "Common",
+        "type": "Caster",
+        "set": "Time is Right Set",
+        "health": 3,
+        "attack": 1,
+        "cost": 2
+    },
+    {
+        "cardId": 16,
+        "cardName": "Darius Hearthlove",
+        "cardDescription": "This is a common healing card. He can heal 2 health to one target at a cost of 1. He can use one enhancement card.",
+        "rarity": "Common",
+        "type": "Healer",
+        "set": "Time is Right Set",
+        "health": 3,
+        "attack": 1,
+        "cost": 2
+    },
+    {
+        "cardId": 17,
+        "cardName": "Amulet of Power",
+        "cardDescription": "This is a common equipment card. It grants a fighter +1 attack or a caster +1 spell power.",
+        "rarity": "Common",
+        "type": "Equipment",
+        "set": "Time is Right Set",
+        "attack": "+1",
+        "spellPower": "+1",
+        "cost": 2
+    },
+    {
+        "cardId": 18,
+        "cardName": "Might of the Mage",
+        "cardDescription": "This is a rare enhancement card. It grants a caster +3 spell power.",
+        "rarity": "Rare",
+        "type": "Enhancement",
+        "set": "Time is Right Set",
+        "spellPower": "+3",
+        "cost": 4
+    },
+    {
+        "cardId": 19,
+        "cardName": "Wolf",
+        "cardDescription": "This is an uncommon creature card. It can use one creature enhancement card.",
+        "rarity": "Uncommon",
+        "type": "Creature",
+        "set": "Time is Right Set",
+        "health": 3,
+        "attack": 2,
+        "cost": 3
+    },
+    {
+        "cardId": 20,
+        "cardName": "Patricia the Proud",
+        "cardDescription": "This is a common fighter. She can use one equipment card and one enhancement card.",
+        "rarity": "Common",
+        "type": "Fighter",
+        "set": "Time is Right Set",
+        "health": 4,
+        "attack": 2,
+        "cost": 2
+    },
+    {
+        "cardId": 21,
+        "cardName": "Robe of the Holy Magus",
+        "cardDescription": "This is an epic equipment card. It gives a caster +4 spell power and +2 health.",
+        "rarity": "Epic",
+        "type": "Equipment",
+        "set": "Time is Right Set",
+        "spellPower": "+4",
+        "health": "+2",
+        "cost": 5
+    },
+    {
+        "cardId": 22,
+        "cardName": "Rebecca Relight",
+        "cardDescription": "This is an uncommon caster card. She has two spells, on that deals 3 light damage to a target, and one that creates a shield of light that absorbs 1 damage. She can use two equipment cards and one enhancement card.",
+        "rarity": "Uncommon",
+        "type": "Caster",
+        "set": "Time is Right Set",
+        "health": 3,
+        "attack": 1,
+        "cost": 2
+    },
+    {
+        "cardId": 23,
+        "cardName": "Sharp Pocket Watch",
+        "cardDescription": "This is a common equipment card. It can be equipped by a fighter, giving them +2 attack. On every attack, flip two coins. If both are tails, the fighter takes 1 daamge, but still attacks. Else, attack as normal.",
+        "rarity": "Common",
+        "type": "Equipment",
+        "set": "Time is Right Set",
+        "attack": "+2",
+        "cost": 1
+    },
+    {
+        "cardId": 24,
+        "cardName": "Timer Rune",
+        "cardDescription": "This is a common enhancement card. It can be used by anyone with an enhancement slot. At the beginning of the third turn after this card has been equipped, including the turn it was played on, the user gets +2 power to their main ability.",
+        "rarity": "Common",
+        "type": "Enhancement",
+        "set": "Time is Right Set",
+        "attack": "+2",
+        "spellPower": "+2",
+        "healing": "+2",
+        "cost": 2
+    },
+    {
+        "cardId": 25,
+        "cardName": "Mouse",
+        "cardDescription": "This is a common creature card.",
+        "rarity": "Common",
+        "type": "Creature",
+        "set": "Time is Right Set",
+        "health": 1,
+        "attack": 1,
+        "cost": 1
+    }
+]

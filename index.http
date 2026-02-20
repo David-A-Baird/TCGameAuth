@@ -1,0 +1,64 @@
+GET http://localhost:3000/users/David
+
+###
+GET http://localhost:3000/users?userId=mark
+
+###
+POST http://localhost:3000/getToken
+Content-Type: application/json
+
+{
+    "firstName": "Markus",
+    "password": "password2"
+}
+
+###
+GET http://localhost:3000/cards
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJtYXJrIiwiaWF0IjoxNzcxNjA2NDE4LCJleHAiOjE3NzE2NDI0MTh9.3qz9k6yNvM95Hk0kDdo9H3_AyF4JKklVatAFfqcQ968
+
+// Get cards by details. Can also be used to send single terms (such as rarrity=Rare or type=Fighter) 
+// and two terms (like rarity=Common&type=Creature) to get more general lists of cards.
+###
+GET http://localhost:3000/cards/search?rarity=Common&type=Fighter&set=Time%20is%20Right%20Set
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJtYXJrIiwiaWF0IjoxNzcxNjA2NDE4LCJleHAiOjE3NzE2NDI0MTh9.3qz9k6yNvM95Hk0kDdo9H3_AyF4JKklVatAFfqcQ968
+
+// Get card amount
+###
+GET http://localhost:3000/cards/count
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJtYXJrIiwiaWF0IjoxNzcxNjA2NDE4LCJleHAiOjE3NzE2NDI0MTh9.3qz9k6yNvM95Hk0kDdo9H3_AyF4JKklVatAFfqcQ968
+
+// Get a random card
+###
+GET http://localhost:3000/cards/random
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJtYXJrIiwiaWF0IjoxNzcxNjA2NDE4LCJleHAiOjE3NzE2NDI0MTh9.3qz9k6yNvM95Hk0kDdo9H3_AyF4JKklVatAFfqcQ968
+
+// Update a card by ID
+###
+PUT http://localhost:3000/cards
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJtYXJrIiwiaWF0IjoxNzcxNjA2NDE4LCJleHAiOjE3NzE2NDI0MTh9.3qz9k6yNvM95Hk0kDdo9H3_AyF4JKklVatAFfqcQ968
+Content-Type: application/json
+
+{
+    "cardId": 1,
+    "name": "Updated Card Name",
+    "description": "Updated Card Description"
+}
+
+###
+POST http://localhost:3000/cards/create
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJtYXJrIiwiaWF0IjoxNzcxNjA2NDE4LCJleHAiOjE3NzE2NDI0MTh9.3qz9k6yNvM95Hk0kDdo9H3_AyF4JKklVatAFfqcQ968
+Content-Type: application/json
+
+{
+    "name": "New Card",
+    "description": "This is a new card."
+}
+
+###
+DELETE http://localhost:3000/cards
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJtYXJrIiwiaWF0IjoxNzcxNjA2NDE4LCJleHAiOjE3NzE2NDI0MTh9.3qz9k6yNvM95Hk0kDdo9H3_AyF4JKklVatAFfqcQ968
+Content-Type: application/json
+
+{
+    "cardId": 4
+}
